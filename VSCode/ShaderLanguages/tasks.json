@@ -27,7 +27,7 @@
               "owner": "hlsl",
               "fileLocation": ["autoDetect", "${workspaceFolder}"],
               "pattern": {
-                "regexp": "^(.*)\\((\\d*),(\\d*-\\d*)\\):\\s*(warning|error)\\s*(\\w*):\\s*(.*)$",
+                "regexp": "^(.*)\\((\\d*),(\\d*-\\d*|\\d*)\\):\\s*(warning|error)\\s*(\\w*):\\s*(.*)$",
                 "file": 1,
                 "line": 2,
                 "column": 3,
